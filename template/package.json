@@ -1,0 +1,19 @@
+{
+  "name": "{{game_name}}",
+  "version": "{{game_version}}",
+  "description": "{{game_description}}",
+  "license": "{{game_license}}",
+  "scripts": {
+    "start": "webpack-dev-server --mode=development --host=0.0.0.0",
+    "build": "webpack --mode=development"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "jamjar": "^0.9.0"
+  }
+}
